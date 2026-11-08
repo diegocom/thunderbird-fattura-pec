@@ -2,6 +2,8 @@
 
 Seleziona una PEC e fai clic su **Visualizza fattura** nella barra del messaggio. Thunderbird apre una scheda interna con fornitore, cliente, numero, data, righe, riepilogo IVA e totale, se riportato nell’XML. Se ci sono più documenti, anche in un lotto FatturaPA, la scheda mostra l’elenco.
 
+![Il pulsante Visualizza fattura nella barra del messaggio di Thunderbird, tra Elimina e Altro](docs/visualizza-fattura-thunderbird.png)
+
 [Scarica il pacchetto .xpi dalle release](https://github.com/diegocom/thunderbird-fattura-pec/releases/latest)
 
 ## Installazione e rimozione
