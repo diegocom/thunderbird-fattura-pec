@@ -1,0 +1,67 @@
+From: PEC di prova <pec@example.invalid>
+To: Destinatario di prova <utente@example.invalid>
+Subject: 04 PEC con soli metadati
+Date: Tue, 03 Nov 2026 12:04:00 +0100
+Message-ID: <fattura-pec-4@example.invalid>
+X-Trasporto: posta-certificata
+X-TipoRicevuta: completa
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4119373495917588525=="
+
+--===============4119373495917588525==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Messaggio sintetico per la prova di Fattura PEC.
+
+--===============4119373495917588525==
+Content-Type: application/xml
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="daticert.xml"
+MIME-Version: 1.0
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iSVNPLTg4NTktMSI/Pgo8IURPQ1RZUEUgcG9z
+dGFjZXJ0IFNZU1RFTSAiZGF0aWNlcnQuZHRkIj4KPHBvc3RhY2VydCB0aXBvPSJwb3N0YS1jZXJ0
+aWZpY2F0YSI+PGRhdGkvPjwvcG9zdGFjZXJ0Pg==
+
+--===============4119373495917588525==
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename="postacert.eml"
+MIME-Version: 1.0
+
+From: PEC di prova <pec@example.invalid>
+To: Destinatario di prova <utente@example.invalid>
+Subject: Messaggio originale di prova
+Date: Tue, 03 Nov 2026 12:14:00 +0100
+Message-ID: <fattura-pec-14@example.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============1240986793342768613=="
+
+--===============1240986793342768613==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Messaggio sintetico per la prova di Fattura PEC.
+
+--===============1240986793342768613==
+Content-Type: application/xml
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="IT00000000000_demo.xml"
+MIME-Version: 1.0
+
+PE1ldGFkYXRpSW52aW9GaWxlPjxJZGVudGlmaWNhdGl2b1NkST4xMjM8L0lkZW50aWZpY2F0aXZv
+U2RJPjwvTWV0YWRhdGlJbnZpb0ZpbGU+
+
+--===============1240986793342768613==
+Content-Type: application/xml
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="notifica.xml"
+MIME-Version: 1.0
+
+PE5vdGlmaWNhU2NhcnRvPjxJZGVudGlmaWNhdGl2b1NkST4xMjM8L0lkZW50aWZpY2F0aXZvU2RJ
+PjwvTm90aWZpY2FTY2FydG8+
+
+--===============1240986793342768613==--
+
+--===============4119373495917588525==--

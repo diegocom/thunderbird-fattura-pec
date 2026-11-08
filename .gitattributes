@@ -1,0 +1,3 @@
+* text=auto eol=lf
+/fixtures/*.eml binary
+/extension/roboto-OFL.txt whitespace=-blank-at-eol

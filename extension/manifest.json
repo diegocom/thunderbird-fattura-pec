@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Fattura PEC",
+  "version": "1.2.0",
+  "description": "Apre un’anteprima locale delle fatture elettroniche allegate alla PEC.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "fattura-pec@local.invalid",
+      "strict_min_version": "153.0"
+    }
+  },
+  "permissions": ["messagesRead", "downloads"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "32": "invoice.svg"
+  },
+  "message_display_action": {
+    "default_label": "Visualizza fattura",
+    "default_title": "Visualizza fattura",
+    "default_icon": "invoice.svg"
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"
+  }
+}

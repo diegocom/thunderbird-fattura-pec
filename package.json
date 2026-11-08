@@ -1,0 +1,21 @@
+{
+  "name": "thunderbird-fattura-pec",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build.js"
+  },
+  "description": "Anteprima locale delle fatture FatturaPA in Thunderbird.",
+  "license": "MIT",
+  "dependencies": {
+    "asn1js": "4.0.0",
+    "pdfmake": "0.3.14",
+    "postal-mime": "4.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "jsdom": "26.1.0"
+  }
+}

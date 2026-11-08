@@ -1,0 +1,35 @@
+From: PEC di prova <pec@example.invalid>
+To: Destinatario di prova <utente@example.invalid>
+Subject: 06 PEC con XML illeggibile
+Date: Tue, 03 Nov 2026 12:06:00 +0100
+Message-ID: <fattura-pec-6@example.invalid>
+X-Trasporto: posta-certificata
+X-TipoRicevuta: completa
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5942618160788713960=="
+
+--===============5942618160788713960==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Messaggio sintetico per la prova di Fattura PEC.
+
+--===============5942618160788713960==
+Content-Type: application/xml
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="daticert.xml"
+MIME-Version: 1.0
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iSVNPLTg4NTktMSI/Pgo8IURPQ1RZUEUgcG9z
+dGFjZXJ0IFNZU1RFTSAiZGF0aWNlcnQuZHRkIj4KPHBvc3RhY2VydCB0aXBvPSJwb3N0YS1jZXJ0
+aWZpY2F0YSI+PGRhdGkvPjwvcG9zdGFjZXJ0Pg==
+
+--===============5942618160788713960==
+Content-Type: application/xml
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="fattura-rotta.xml"
+MIME-Version: 1.0
+
+PEZhdHR1cmFFbGV0dHJvbmljYT4=
+
+--===============5942618160788713960==--

@@ -1,0 +1,95 @@
+From: PEC di prova <pec@example.invalid>
+To: Destinatario di prova <utente@example.invalid>
+Subject: 02 PEC con XML in postacert.eml
+Date: Tue, 03 Nov 2026 12:02:00 +0100
+Message-ID: <fattura-pec-2@example.invalid>
+X-Trasporto: posta-certificata
+X-TipoRicevuta: completa
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6492037169225607871=="
+
+--===============6492037169225607871==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Messaggio sintetico per la prova di Fattura PEC.
+
+--===============6492037169225607871==
+Content-Type: application/xml
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="daticert.xml"
+MIME-Version: 1.0
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iSVNPLTg4NTktMSI/Pgo8IURPQ1RZUEUgcG9z
+dGFjZXJ0IFNZU1RFTSAiZGF0aWNlcnQuZHRkIj4KPHBvc3RhY2VydCB0aXBvPSJwb3N0YS1jZXJ0
+aWZpY2F0YSI+PGRhdGkvPjwvcG9zdGFjZXJ0Pg==
+
+--===============6492037169225607871==
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename="postacert.eml"
+MIME-Version: 1.0
+
+From: PEC di prova <pec@example.invalid>
+To: Destinatario di prova <utente@example.invalid>
+Subject: Messaggio originale di prova
+Date: Tue, 03 Nov 2026 12:12:00 +0100
+Message-ID: <fattura-pec-12@example.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6679535611761454133=="
+
+--===============6679535611761454133==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Messaggio sintetico per la prova di Fattura PEC.
+
+--===============6679535611761454133==
+Content-Type: application/xml
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="IT00000000000_demo.xml"
+MIME-Version: 1.0
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHA6RmF0dHVyYUVsZXR0cm9u
+aWNhIHhtbG5zOnA9Imh0dHA6Ly9pdmFzZXJ2aXppLmFnZW56aWFlbnRyYXRlLmdvdi5pdC9kb2Nz
+L3hzZC9mYXR0dXJlL3YxLjIiIHZlcnNpb25lPSJGUFIxMiI+CiAgPEZhdHR1cmFFbGV0dHJvbmlj
+YUhlYWRlcj4KICAgIDxEYXRpVHJhc21pc3Npb25lPgogICAgICA8SWRUcmFzbWl0dGVudGU+PElk
+UGFlc2U+SVQ8L0lkUGFlc2U+PElkQ29kaWNlPjAwMDAwMDAwMDAwPC9JZENvZGljZT48L0lkVHJh
+c21pdHRlbnRlPgogICAgICA8UHJvZ3Jlc3Npdm9JbnZpbz5ERU1PPC9Qcm9ncmVzc2l2b0ludmlv
+PjxGb3JtYXRvVHJhc21pc3Npb25lPkZQUjEyPC9Gb3JtYXRvVHJhc21pc3Npb25lPgogICAgICA8
+Q29kaWNlRGVzdGluYXRhcmlvPjAwMDAwMDA8L0NvZGljZURlc3RpbmF0YXJpbz4KICAgIDwvRGF0
+aVRyYXNtaXNzaW9uZT4KICAgIDxDZWRlbnRlUHJlc3RhdG9yZT4KICAgICAgPERhdGlBbmFncmFm
+aWNpPgogICAgICAgIDxJZEZpc2NhbGVJVkE+PElkUGFlc2U+SVQ8L0lkUGFlc2U+PElkQ29kaWNl
+PjAwMDAwMDAwMDAwPC9JZENvZGljZT48L0lkRmlzY2FsZUlWQT4KICAgICAgICA8QW5hZ3JhZmlj
+YT48RGVub21pbmF6aW9uZT5Gb3JuaXRvcmUgRGltb3N0cmF0aXZvIFMuci5sLjwvRGVub21pbmF6
+aW9uZT48L0FuYWdyYWZpY2E+CiAgICAgICAgPFJlZ2ltZUZpc2NhbGU+UkYwMTwvUmVnaW1lRmlz
+Y2FsZT4KICAgICAgPC9EYXRpQW5hZ3JhZmljaT4KICAgICAgPFNlZGU+PEluZGlyaXp6bz5WaWEg
+ZGkgUHJvdmEgMTwvSW5kaXJpenpvPjxDQVA+MDAxMDA8L0NBUD48Q29tdW5lPlJvbWE8L0NvbXVu
+ZT48TmF6aW9uZT5JVDwvTmF6aW9uZT48L1NlZGU+CiAgICA8L0NlZGVudGVQcmVzdGF0b3JlPgog
+ICAgPENlc3Npb25hcmlvQ29tbWl0dGVudGU+CiAgICAgIDxEYXRpQW5hZ3JhZmljaT4KICAgICAg
+ICA8SWRGaXNjYWxlSVZBPjxJZFBhZXNlPklUPC9JZFBhZXNlPjxJZENvZGljZT4xMTExMTExMTEx
+MTwvSWRDb2RpY2U+PC9JZEZpc2NhbGVJVkE+CiAgICAgICAgPEFuYWdyYWZpY2E+PE5vbWU+QW5u
+YTwvTm9tZT48Q29nbm9tZT5EaW1vc3RyYXRpdmE8L0NvZ25vbWU+PC9BbmFncmFmaWNhPgogICAg
+ICA8L0RhdGlBbmFncmFmaWNpPgogICAgICA8U2VkZT48SW5kaXJpenpvPlZpYSBkaSBQcm92YSAy
+PC9JbmRpcml6em8+PENBUD4wMDEwMDwvQ0FQPjxDb211bmU+Um9tYTwvQ29tdW5lPjxOYXppb25l
+PklUPC9OYXppb25lPjwvU2VkZT4KICAgIDwvQ2Vzc2lvbmFyaW9Db21taXR0ZW50ZT4KICA8L0Zh
+dHR1cmFFbGV0dHJvbmljYUhlYWRlcj4KICA8RmF0dHVyYUVsZXR0cm9uaWNhQm9keT4KICAgIDxE
+YXRpR2VuZXJhbGk+PERhdGlHZW5lcmFsaURvY3VtZW50bz4KICAgICAgPFRpcG9Eb2N1bWVudG8+
+VEQwMTwvVGlwb0RvY3VtZW50bz48RGl2aXNhPkVVUjwvRGl2aXNhPjxEYXRhPjIwMjYtMTEtMDM8
+L0RhdGE+CiAgICAgIDxOdW1lcm8+REVNTy8wMTwvTnVtZXJvPjxJbXBvcnRvVG90YWxlRG9jdW1l
+bnRvPjEyMi4wMDwvSW1wb3J0b1RvdGFsZURvY3VtZW50bz4KICAgIDwvRGF0aUdlbmVyYWxpRG9j
+dW1lbnRvPjwvRGF0aUdlbmVyYWxpPgogICAgPERhdGlCZW5pU2Vydml6aT4KICAgICAgPERldHRh
+Z2xpb0xpbmVlPgogICAgICAgIDxOdW1lcm9MaW5lYT4xPC9OdW1lcm9MaW5lYT48RGVzY3Jpemlv
+bmU+QXR0aXZpdMOgIGRpIHByb3ZhICZsdDtpbWcgc3JjPXggb25lcnJvcj1hbGVydCgxKSZndDs8
+L0Rlc2NyaXppb25lPgogICAgICAgIDxRdWFudGl0YT4yLjAwPC9RdWFudGl0YT48UHJlenpvVW5p
+dGFyaW8+NTAuMDA8L1ByZXp6b1VuaXRhcmlvPgogICAgICAgIDxQcmV6em9Ub3RhbGU+MTAwLjAw
+PC9QcmV6em9Ub3RhbGU+PEFsaXF1b3RhSVZBPjIyLjAwPC9BbGlxdW90YUlWQT4KICAgICAgPC9E
+ZXR0YWdsaW9MaW5lZT4KICAgICAgPERhdGlSaWVwaWxvZ28+PEFsaXF1b3RhSVZBPjIyLjAwPC9B
+bGlxdW90YUlWQT48SW1wb25pYmlsZUltcG9ydG8+MTAwLjAwPC9JbXBvbmliaWxlSW1wb3J0bz48
+SW1wb3N0YT4yMi4wMDwvSW1wb3N0YT48L0RhdGlSaWVwaWxvZ28+CiAgICA8L0RhdGlCZW5pU2Vy
+dml6aT4KICA8L0ZhdHR1cmFFbGV0dHJvbmljYUJvZHk+CjwvcDpGYXR0dXJhRWxldHRyb25pY2E+
+Cg==
+
+--===============6679535611761454133==--
+
+--===============6492037169225607871==--

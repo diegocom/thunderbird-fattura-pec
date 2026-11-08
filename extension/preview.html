@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fattura PEC</title>
+    <link rel="stylesheet" href="preview.css">
+    <script type="module" src="preview.js"></script>
+  </head>
+  <body>
+    <main>
+      <header class="page-header">
+        <img src="invoice.svg" width="32" height="32" alt="">
+        <h1>Fattura PEC</h1>
+      </header>
+      <p id="status" role="status">Lettura degli allegati…</p>
+      <section id="choices" aria-labelledby="choices-title" hidden>
+        <h2 id="choices-title" tabindex="-1">Scegli una fattura</h2>
+        <ul id="invoice-list"></ul>
+      </section>
+      <article id="invoice" aria-labelledby="invoice-title" hidden></article>
+      <aside id="warnings" aria-labelledby="warnings-title" hidden>
+        <h2 id="warnings-title">Allegati non leggibili o non disponibili</h2>
+        <ul id="warning-list"></ul>
+      </aside>
+    </main>
+  </body>
+</html>
